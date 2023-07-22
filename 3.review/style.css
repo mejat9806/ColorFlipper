@@ -1,0 +1,143 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #a2c1c9;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 50px;
+}
+.underline{
+    width: 100px;
+    height: 10px;
+    background-color: #00ccff;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.img-container>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   box-shadow: #00ccff 10px 1px 1px 1px  ;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    width: 500px;
+    border-radius: 10px;
+    padding: 3% 0;
+    background-color: white;
+    box-shadow: #0000001e 10px 1px 10px 10px  ;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#info{
+    text-align: center;
+    width: 300px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#author {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+#job{
+    font-size: large;
+    margin-bottom: 10px;
+    color: rgb(4, 184, 255);
+}
+
+.next-btn ,.prev-btn{
+    color: #00ccff;
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin: 1.2rem 1.2rem;
+    cursor: pointer;
+}
+
+#supriseBtn{
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 30px;
+    padding: 0.3rem 1rem;
+    color: #00ccff;
+    background-color: #d3e6eb;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+#supriseBtn:hover{
+    color: #d3e6eb;
+    background-color:#00ccff ;
+    transform: scale(1.05);
+    transition: transform 100ms ease;
+}
+.prev-btn:hover{
+    color: #344c52;
+    transform: scale(1.1);
+    transition: transform 100ms ease;
+}
+.next-btn:hover{
+    color: #344c52;
+    transform: scale(1.1);
+    transition: transform 100ms ease;
+}
+@media only and (max-width: 600px)  {
+    body {
+      display: flex;
+    }
+    .review{
+        display: flex;
+    }
+  }
+ 
+ @media screen and (min-width: 1200px){
+    body {
+      display: flex;
+    }
+    .container{
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        
+
+    }
+    #info{
+        text-align: center;
+        width: 600px;
+    }
+  }
+    
+ 

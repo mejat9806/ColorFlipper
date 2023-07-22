@@ -1,17 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["1.colorfliper\index.html"],
+  content: ["./5.todoList/*.{html,js}"],
   theme: {
-    extend: {
-      colors:{
-        'choco':'#faead6'
-      }
-      
-    },
+    extend: {},
   },
-  plugins: [
-    require('tailwindcss'),
-    require('autoprefixer'),
-  ],
+  plugins: [],
 }
 
