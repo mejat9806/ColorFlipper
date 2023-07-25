@@ -20,26 +20,26 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background-color: #cdb4db;
-border-radius: 10px;
-padding: 10px;
+border-radius: .5em;
+padding: 0.1em;
 }
 #color{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 100px;
-    height: 100px;
+    width: 10em;
+    height: 10em;
     background-color: transparent;
     border: none;
     cursor: pointer; 
-    margin: 30px;
+    margin: 0.3em;
 }
 #color::-webkit-color-swatch{
-    border-radius: 15px;
+    border-radius: 20%;
     border: none;
 }
 #color::-moz-color-swatch{
-    border-radius: 15px;
+    border-radius: 15%;
     border: none;
 }
 
@@ -53,9 +53,9 @@ button{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 10px;
+    padding: .5em;
     font-weight: 900;
-    margin: 10px 0 10px 0;
+    margin: 0.1em 0 0.1em 0;
     border-radius: 10px;
     border: none;
     font-size: 1.5em;
@@ -68,8 +68,8 @@ transform: scale(1.1);
 #canvas{
     display: grid;
     margin: 10%;
-    height: 500px;
-    width: 500px;
+    height: 30em;
+    width: 30em;
     border: 1px black solid;
     background-color: #ffafcc;
 }
@@ -84,7 +84,7 @@ transform: scale(1.1);
 }
 
 h1{
-    font-size: 100px;
+    font-size: 10em;
     text-align: center;
     color: aliceblue;
     -webkit-text-stroke-color: black;
@@ -114,7 +114,7 @@ h2{
 @media all and (min-width: 800px) and (max-width: 1024px) {
     body{
        margin: 0 auto;
-       width: 100px;
+       width: 10em;
        
     }
     .container{
@@ -130,9 +130,10 @@ h2{
         width: 1000px;
     }
     #canvas{
-        width: 800px;
-        height: 800px;
+        width: 60rem;
+        height: 60rem;
+        margin-bottom: 1em;
+        margin-top: 1em;
     }
 }
 
-@media all and (min-width: 320px) and (max-width: 780px) {here is your css code}

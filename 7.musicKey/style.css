@@ -1,0 +1,44 @@
+:root{
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+overflow: hidden;   
+background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    gap: 10px;
+    margin: 0% auto;
+    
+}
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+    transition: all 0.07s ease-in-out;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+p{
+    margin: 0;
+    font-size: 0.5em;
+}
+.playing{
+    transform: scale(1.1);
+    border: aquamarine;
+    box-shadow: 0 0 10px aquamarine;
+}
+
+.key:hover{
+    background-color: aliceblue;
+}
